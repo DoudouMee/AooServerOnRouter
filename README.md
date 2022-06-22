@@ -34,4 +34,4 @@ You may need **comment out** *line 96*  in `JuceLibraryCode/modules/juce_core/ju
 
 You may also need to build your own library files first, such as *libcurl*, *libnghttp2*. 
 
-After that **change the makefile** and add these dependencies into it.
+After that, **change the makefile** and add these dependencies into it. (Mainly at `LDFLAGS`)
